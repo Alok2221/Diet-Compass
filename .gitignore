@@ -1,0 +1,109 @@
+# IntelliJ IDEA specific files/directories
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ids
+*.orig
+/out/
+/.idea_modules/
+/.idea/libraries/
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries/
+/.idea/shelf/
+/.idea/.name
+/.idea/compiler.xml
+/.idea/copyright/
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/scopes/
+/.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
+/.idea/dataSources.ids
+/.idea/dataSources.xml
+/.idea/sqlDataSources.xml
+/.idea/dynamic.xml
+/.idea/uiDesigner.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+!**/src/main/**/logs/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot
+**/application.properties
+**/application.yml
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+
+# Spring Boot Actuator
+heapdump.hprof
+
+
+# Env files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Temp files
+*.tmp
+*.bak
+*.old
+
+# System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Test coverage
+.coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration files
+*.local
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
